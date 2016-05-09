@@ -6,6 +6,7 @@ require(__DIR__ . '/Consumer/File.php');
 require(__DIR__ . '/Consumer/ForkCurl.php');
 require(__DIR__ . '/Consumer/LibCurl.php');
 require(__DIR__ . '/Consumer/Socket.php');
+require(__DIR__ . '/Consumer/NSQ.php');
 require(__DIR__ . '/Version.php');
 
 class Segment_Client {
@@ -26,7 +27,8 @@ class Segment_Client {
       "socket"     => "Segment_Consumer_Socket",
       "file"       => "Segment_Consumer_File",
       "fork_curl"  => "Segment_Consumer_ForkCurl",
-      "lib_curl"   => "Segment_Consumer_LibCurl"
+      "lib_curl"   => "Segment_Consumer_LibCurl",
+      "nsq"        => "Segment_Consumer_NSQ"
     );
 
     # Use our socket consumer by default

@@ -1,1 +1,1 @@
-<?php $SEGMENT_VERSION = "1.3.0"; ?>
+<?php $SEGMENT_VERSION = "1.3.1"; ?>

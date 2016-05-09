@@ -1,12 +1,13 @@
 {
-	"name": "segmentio/analytics-php",
-	"version": "1.3.0",
+	"name": "internavenue/analytics-php",
+	"version": "1.3.1",
 	"description": "Segment Analytics PHP Library",
 	"keywords": [
 		"analytics",
 		"segmentio",
 		"segment",
-		"analytics.js"
+		"analytics.js",
+		"nsq"
 	],
 	"homepage": "https://segment.com/libraries/php",
 	"license": "MIT",
@@ -14,6 +15,10 @@
 		{
 			"name": "Segment.io <friends@segment.com>",
 			"homepage": "https://segment.com/"
+		},
+		{
+			"name": "nvcnvn <nvcnvn@internavenue.com",
+			"homepage": "https://github.com/nvcnvn"
 		}
 	],
 	"require": {
